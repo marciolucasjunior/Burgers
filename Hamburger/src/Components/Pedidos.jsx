@@ -8,7 +8,7 @@ function Pedidos() {
     
     //Pegando dados, requisição http
     useEffect(()=>{
-     fetch('api-burger-cfqyt7k3i-marciolucasjunior.vercel.app',{
+     fetch('http://localhost:3001/cad',{
       method:'GET',
      }).then((resp)=> resp.json()).then((data)=>{
       setusuarios(data)
