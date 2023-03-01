@@ -16,7 +16,7 @@ function Formulario(props){
         cebola:'',
         chedar: '',
         pepino: '',
-     
+        tomate:'',
         
     })
 
@@ -44,7 +44,7 @@ function Formulario(props){
                    //MANDAR PARA BACK-END
                   //Cadastrando os dados na api
                
-                  fetch('http://localhost:3001/cad',{
+                  fetch('http://localhost:3001/cadastro',{
                     method:'POST',
                     headers:{
                        'Content-type':'application/json'

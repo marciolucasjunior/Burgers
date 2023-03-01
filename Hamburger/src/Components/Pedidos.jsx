@@ -8,7 +8,7 @@ function Pedidos() {
     
     //Pegando dados, requisição http
     useEffect(()=>{
-     fetch('http://localhost:3001/cad',{
+     fetch('http://localhost:3001/cadastro',{
       method:'GET',
      }).then((resp)=> resp.json()).then((data)=>{
       setusuarios(data)
@@ -22,7 +22,7 @@ function Pedidos() {
       let confirmar = confirm('Tem certeza que deseja cancelar o pedido?')
       if(confirmar) { 
       console.log(id)
-      fetch('http://localhost:3001/deletar/'+id,{
+      fetch('http://localhost:3001/deletar_burger/'+id,{
       method: 'POST',
       headers: {
          'Content-Type':'application/json'
@@ -49,7 +49,7 @@ function Pedidos() {
     <table>
     <thead>
        <tr>
-           <td>#</td>
+       
            <td>Cliente</td>
            <td>pão</td>
            <td>Carne</td>
@@ -57,10 +57,9 @@ function Pedidos() {
            <td>Ações</td>
        </tr>
     </thead>
-    {usuarios.map(usuarios => (
-    <tbody key={usuarios.id.toString()}>
+    {usuarios.map(usuarios =>(
+    <tbody key={usuarios._id.toString()}>
          <tr>
-          <td>{usuarios.id}</td>
           <td>{usuarios.cliente}</td>
           <td>{usuarios.pao}</td>
           <td>{usuarios.carne}</td>
@@ -83,7 +82,7 @@ function Pedidos() {
                 <option value="Em_producao">Em produção</option>
                 <option value="Finalizado">Finalizado</option>
             </select>
-           <button onClick={()=> deletar(usuarios.id)}>cancelar</button>
+           <button onClick={()=> deletar(usuarios._id)}>cancelar</button>
           </td>
          </tr>
        </tbody>

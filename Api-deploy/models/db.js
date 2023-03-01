@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('burger','root','',{
-    host: '127.0.0.1',
+const sequelize = new Sequelize('makeburger','marcinho_felisbe','vevAcSXpCw97!B7',{
+    host:'db4free.net',
     dialect: 'mysql',
     define:{
         charset: 'utf8',
@@ -10,12 +10,12 @@ const sequelize = new Sequelize('burger','root','',{
     logging: false
 });
 
-/*TESTANDO A CONEXÃO COM O BANCO
+ //TESTANDO A CONEXÃO COM O BANCO
 
 sequelize.authenticate().then(()=> {
     console.log('Conectado no banco com sucesso!');
 }).catch((err)=>{
    console.log('Falha ao se conectar:'+err)
 })  
-*/
+
 module.exports = {Sequelize,sequelize}
