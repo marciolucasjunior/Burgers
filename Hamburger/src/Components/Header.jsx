@@ -7,7 +7,7 @@ function Header() {
     <div>
         <header>
                   <nav className="nav">
-                      <img id='logo' src=".././public/logo.png" alt="logo_na" />
+                      <img id='logo' src="../.././public/logo.png" alt="logo_now" />
                       <a href="/"><p>Fazer Pedidos</p></a>
                       <a href="/Pedidos" rel="next"><p>Pedidos</p></a>
                   </nav>
