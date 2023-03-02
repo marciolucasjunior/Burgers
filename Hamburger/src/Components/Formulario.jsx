@@ -44,7 +44,7 @@ function Formulario(props){
                    //MANDAR PARA BACK-END
                   //Cadastrando os dados na api
                
-                  fetch('http://localhost:3001/cadastro',{
+                  fetch('https://mongoteste.vercel.app/cadastro',{
                     method:'POST',
                     headers:{
                        'Content-type':'application/json'

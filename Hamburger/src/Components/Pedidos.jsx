@@ -8,7 +8,7 @@ function Pedidos() {
     
     //Pegando dados, requisição http
     useEffect(()=>{
-     fetch('http://localhost:3001/cadastro',{
+     fetch('https://mongoteste.vercel.app/cadastro',{
       method:'GET',
      }).then((resp)=> resp.json()).then((data)=>{
       setusuarios(data)
@@ -22,7 +22,7 @@ function Pedidos() {
       let confirmar = confirm('Tem certeza que deseja cancelar o pedido?')
       if(confirmar) { 
       console.log(id)
-      fetch('http://localhost:3001/deletar_burger/'+id,{
+      fetch('https://mongoteste.vercel.app/deletar_burger/'+id,{
       method: 'POST',
       headers: {
          'Content-Type':'application/json'
