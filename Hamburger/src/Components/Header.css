@@ -38,11 +38,5 @@ body {
 
 #image {
     display: flex;
-    background-image: url(imagens/burger.jpg);
-    background-size: cover;
-    background-position:  0 -250px;
-    background-repeat: no-repeat;
-    height: 500px;
-    align-items: center;
 }
 
