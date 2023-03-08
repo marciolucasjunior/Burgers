@@ -2,6 +2,7 @@
  
 <h1>Sobre  o  Projeto   </h1>
 
+<a href="https://hamburger-seven.vercel.app/" />Acesse o projeto aqui</a>
 <a href="https://github.com/marciolucasjunior/MakeBurger/blob/main/LICENSE"><img src="https://user-images.githubusercontent.com/109992150/211327592-53df9889-77d2-4d5d-acc8-429675954564.svg" width="80px" /></a>
 
 <p>MakeBurger é um projeto desenvolvido com React, que o usuário poderá montar o seu hambúrguer através da página que contém um formulário com diversas opções de pães, carnes e opcionais</p>
@@ -15,15 +16,6 @@
 <h2>Página pedidos </h2>
 <img src="https://user-images.githubusercontent.com/109992150/210836009-e4f21fb2-7b62-419f-88e6-1bb2426a2630.png"  width="800px" /> 
 
-<h2>Como executar o projeto</h2>
-
-#Entrar na pasta back <br>
-cd back <br>
-npx json-server db.json <br>
-
-#Entrar na pasta Burger <br>
-cd Burger <br>
-npm run dev
 
 <h1>Tecnologias utilizadas </h1>
  HTML /CSS / REACT / API-JSON-SERVER
