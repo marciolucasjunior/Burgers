@@ -2,7 +2,7 @@
  
 <h1>Sobre  o  Projeto   </h1>
 
-<a href="https://hamburger-seven.vercel.app/" />Acesse o projeto aqui</a><br>
+<a href="https://hamburger-seven.vercel.app/" target_blank />Acesse o projeto aqui</a><br>
 
 <a href="https://github.com/marciolucasjunior/MakeBurger/blob/main/LICENSE"><img src="https://user-images.githubusercontent.com/109992150/211327592-53df9889-77d2-4d5d-acc8-429675954564.svg" width="80px" /></a>
 
