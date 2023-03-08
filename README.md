@@ -6,8 +6,8 @@
 
 <a href="https://github.com/marciolucasjunior/MakeBurger/blob/main/LICENSE"><img src="https://user-images.githubusercontent.com/109992150/211327592-53df9889-77d2-4d5d-acc8-429675954564.svg" width="80px" /></a>
 
-<p>MakeBurger é um projeto desenvolvido com React, que o usuário poderá montar o seu hambúrguer através da página que contém um formulário com diversas opções de pães, carnes e opcionais</p>
-<p>Também poderá acompanhar o seu pedido e o estados dele na página pedidos, poderá também desistir de seu pedido e cancelá-lo</p>  
+<p>MakeBurger é um projeto desenvolvido com React, que o usuário poderá montar o seu hambúrguer através da página que contém um formulário com diversas opções de pães, carnes e opcionais.</p>
+<p>Também poderá acompanhar o seu pedido e o estatus dele na página pedidos, poderá também desistir de seu pedido e cancelá-lo</p>  
 <p> Os Dados serão cadastrados ou exclúidos através da API que construi com nodejs conectada ao banco de dados mongodb atlas, há api foi hospedada na vercel.</p>
 
 <h2>Layout MakeBurger </h2>
