@@ -6,8 +6,9 @@
         height: 100vh;
     }
 
-
-  
+    table {
+        max-width: 800px;
+    }
     h1{
         text-align: center;
     }
