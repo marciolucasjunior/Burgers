@@ -3,7 +3,7 @@ import Pedidos from "../Components/Pedidos"
 import Footer from "../Components/Footer"
 function Next(){
 
-      
+ 
 
     return (
         <div>

@@ -9,6 +9,8 @@ import Footer from "../Components/Footer"
 
 function Home(){
 
+    
+
 
     return (
         <div>
