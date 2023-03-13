@@ -5,6 +5,8 @@
         width: 100vw;
         height: 100vh;
     }
+
+
   
     h1{
         text-align: center;
@@ -33,7 +35,7 @@
 }
 
 table {
-    margin: auto;
+
     border-collapse: collapse;
     border: 1px solid black;
 }
