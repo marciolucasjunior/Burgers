@@ -2,7 +2,7 @@ import './Formulario.css'
 import { useState } from 'react'
 
 
-function Formulario(props){
+function Formulario(){
 
 
 
