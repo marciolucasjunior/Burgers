@@ -33,6 +33,10 @@
     background-color: white;
 }
 
+#container_tabela{
+    overflow-x: auto;
+}
+
 table {
 
     border-collapse: collapse;
