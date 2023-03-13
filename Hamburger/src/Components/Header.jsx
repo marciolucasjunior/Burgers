@@ -11,11 +11,9 @@ function Header() {
 
   function rolarPagina(e){
    
-   
       if(window.location.href == paginaInicial || window.location.href == paginaProducao  ){
         e.preventDefault()
         window.scroll({top: window.innerHeight,behavior: "smooth"})
-
       }
       
    
@@ -28,11 +26,7 @@ function Header() {
         <header>
                   <nav className="nav">              
                       <p id='logo'>M.B</p>
-                      
-                        <a onClick={rolarPagina} href="/">
-                          <p  >Fazer Pedidos</p>
-                        </a>
-                      
+                      <a onClick={rolarPagina} href="/"><p>Fazer Pedidos</p></a>
                       <a href="/Pedidos" rel="next"><p>Pedidos</p></a>
                   </nav>
        </header> 
