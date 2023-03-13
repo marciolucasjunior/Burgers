@@ -34,12 +34,9 @@
 }
 
 table {
-    width: 100%; 
     margin: auto;
     border-collapse: collapse;
     border: 1px solid black;
-  
-   
 }
 
 thead {
