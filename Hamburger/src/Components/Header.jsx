@@ -5,13 +5,12 @@ import './Header.css'
 
 function Header() {
 
-      const paginaInicial = 'http://localhost:5173/'
-      const paginaProducao = 'https://hamburger-seven.vercel.app/'
-
+     
+  
 
   function rolarPagina(e){
    
-      if(window.location.href == paginaInicial || window.location.href == paginaProducao  ){
+      if(window.location.pathname == "/" ){
         e.preventDefault()
         window.scroll({top: window.innerHeight,behavior: "smooth"})
       }
